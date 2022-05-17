@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./day1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset >
+                <legend>Form</legend>
+        <div class="inputs">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Name" required  class="text" ><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" placeholder="Password" required class="text" > <br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Email"  id="email" required class="text"><br>
+                    <label for="Phone">Phone no:</label><br>
+                    <input type="text" name="Phone"  placeholder="Phone no" id="Phone" class="text"><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday">
+            <br>
+
+            <label for="gender">Gender:</label><br>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">other</label>
+            <input type="radio" name="gender" id="other" value="other"><br>
+
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" name="hobbies" id="football"><label for="football">football</label>
+            
+            <input type="checkbox" name="hobbies" id="singing"><label for="singing">singing</label>
+
+            <input type="checkbox" name="hobbies" id="Cricket"><label for="Cricket">Cricket</label><br>
+
+            <label for="textarea">Tell about yourself:</label><br>
+            <textarea rows="10" cols="50" placeholder="tell about yourself" minlength="10" maxlength="250"></textarea><br>
+            <input type="submit" value="submit" class="submit">
+        </div>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>

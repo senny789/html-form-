@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    line-height: 32px;
+    color: rgb(250, 245, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+fieldset{
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.424) ;
+    box-shadow: 4px 4px 15px 10px rgb(193, 177, 177);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+legend{
+    background-color: rgb(188, 187, 179);
+    color: black;
+    padding-inline:1em ;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px 1px black;
+    margin: 0 auto;
+}
+body{
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,83,1) 35%, rgba(0,212,255,1) 100%);  */
+}
+.container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+label{
+    font-weight: bold;
+}
+#Date{
+color: black;
+}
+input{
+    color: black;
+}
+.submit{
+    background-color:rgba(38, 255, 255, 0.738);
+    border: none;
+    padding: 0em 2em;
+    border-radius: 0.5em;
+    color: aliceblue;
+    box-shadow: 1px 2px 2px 1px rgb(126, 124, 124);
+
+}
+form{
+    padding:10% ;
+    
+}
+.inputs{
+    padding:20%;
+    height: 100%;
+    width: 100%;
+}
+textarea{
+    color: black;
+    max-width: 70%;
+    min-width: 30%;
+    resize: vertical;
+   
+}
+input{
+    margin-block:1em ;
+   
+}
+.text{
+    border-radius: 1em;
+    border: none;
+   min-width: 50%;
+   max-width: 50%;
+}
+
